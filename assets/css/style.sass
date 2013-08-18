@@ -2,6 +2,7 @@
 @import "mixins"
 @import "grid.css"
 @import "fonts.css"
+@import "pallette"
 
 *
 	text-rendering: optimizeLegibility !important
@@ -16,8 +17,27 @@ html, body, .mainContainer
 	height: 100%
 
 header
-	background: green
+	background: $green
 	width: 100%
+	padding: 20px 0
+	.logo
+		height: 50px
+		width: 50px
+		margin-right: 10px
+		@include rgba-bg(#000, 0.3)
+	.text
+		color: #fff
+		text-shadow: 0 -1px 0 rgba(#000, 0.2)
+		.title
+			text-transform: uppercase
+			font-size: 22px
+			font-style: italic
+			.bold
+				font-weight: 700
+				font-style: normal
+		.subTitle
+			color: rgba(#fff, 0.8)
+
 
 footer
 	background: #000
