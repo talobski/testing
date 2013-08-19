@@ -27,28 +27,26 @@
             .subTitle St. Paul University Quezon City
 
       .wrapper
-        %section.whiteContainer
-          .row-fluid
-            .span1
-              .darkContainer
-                .menu
-                  %a{:href => "#"}
-                    .item
-                      .icon-home 
-                      .itemText Home
-                  %a{:href => "#"}
-                    .item 
-                      .icon-about 
-                      .itemText About Us
-                  %a{:href => "#"}
-                    .item 
-                      .icon-product 
-                      .itemText Product
-                  %a{:href => "#"}
-                    .item 
-                      .icon-contact 
-                      .itemText Contact Us
-            .span11
+        %section.whiteContainer.clearfix
+          .sideBar.left
+            .menu
+              %a{:href => "#"}
+                .item
+                  .icon-home 
+                  .itemText Home
+              %a{:href => "#"}
+                .item 
+                  .icon-about 
+                  .itemText About Us
+              %a{:href => "#"}
+                .item 
+                  .icon-product 
+                  .itemText Product
+              %a{:href => "#"}
+                .item 
+                  .icon-contact 
+                  .itemText Contact Us
+          .mainContent.left
 
   %footer
     footer
