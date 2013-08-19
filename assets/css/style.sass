@@ -11,10 +11,14 @@
 
 html, body
 	min-width: 960px
-
-html, body, .mainContainer
-	min-height: 100%
 	height: 100%
+	background: #f3f3f3
+
+.mainContainer
+	min-height: 100%
+	.main
+		overflow: auto
+		padding-bottom: 50px
 
 header
 	background: $green
@@ -66,17 +70,18 @@ header
 					margin-top: 30px
 
 footer
+	position: relative
 	background: #000
 	width: 100%
 	height: 50px
 	margin-top: -50px
+	clear: both
 
 body
 	color: #222
 	font-family: "Lato", sans-serif
 	font-size: 13px
 	font-weight: 400
-	background: #f3f3f3
 
 .whiteContainer
 	background: #fafafa
