@@ -10,14 +10,16 @@
 
 html, body {
   min-width: 960px;
-  height: 100%;
-  background: #f3f3f3; }
+  height: 100%; }
 
 .mainContainer {
-  min-height: 100%; }
-  .mainContainer .main {
+  min-height: 100%;
+  background: #f3f3f3; }
+  .mainContainer:after {
+    content: "";
     overflow: auto;
-    padding-bottom: 50px; }
+    padding-bottom: 80px;
+    display: block; }
 
 header {
   background: #11a392;
