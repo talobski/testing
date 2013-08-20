@@ -1,0 +1,57 @@
+@import url(normalize.css);
+@import url(grid.css);
+@import url(fonts.css);
+.homePage#page .mainContent .topContent .topBox {
+  position: relative;
+  height: 500px;
+  overflow: hidden; }
+  .homePage#page .mainContent .topContent .topBox .image {
+    height: 100%;
+    width: 100%;
+    background: #eeeeee; }
+    .homePage#page .mainContent .topContent .topBox .image img {
+      height: 100%;
+      -moz-box-shadow: 0 0 10px red inset, transparent 0 0 0, transparent 0 0 0;
+      -webkit-box-shadow: 0 0 10px red inset, transparent 0 0 0, transparent 0 0 0;
+      box-shadow: 0 0 10px red inset, transparent 0 0 0, transparent 0 0 0; }
+  .homePage#page .mainContent .topContent .topBox .info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 280px;
+    padding: 30px;
+    color: white;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+    background-color: #102c36;
+    background-color: rgba(16, 44, 54, 0.9);
+    -moz-box-shadow: -2px 0 4px rgba(0, 0, 0, 0.3), transparent 0 0 0, transparent 0 0 0;
+    -webkit-box-shadow: -2px 0 4px rgba(0, 0, 0, 0.3), transparent 0 0 0, transparent 0 0 0;
+    box-shadow: -2px 0 4px rgba(0, 0, 0, 0.3), transparent 0 0 0, transparent 0 0 0; }
+    .homePage#page .mainContent .topContent .topBox .info .title {
+      font-size: 15px;
+      font-weight: 700;
+      position: relative;
+      margin-bottom: 20px; }
+    .homePage#page .mainContent .topContent .topBox .info .list {
+      color: rgba(255, 255, 255, 0.8); }
+      .homePage#page .mainContent .topContent .topBox .info .list .item {
+        padding: 7px 12px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        cursor: pointer;
+        background-color: black;
+        background-color: rgba(0, 0, 0, 0.12); }
+        .homePage#page .mainContent .topContent .topBox .info .list .item:nth-child(even) {
+          background: transparent; }
+        .homePage#page .mainContent .topContent .topBox .info .list .item:hover {
+          background-color: white;
+          background-color: rgba(255, 255, 255, 0.08);
+          -moz-transition: all 0.3s linear;
+          -o-transition: all 0.3s linear;
+          -ms-transition: all 0.3s linear;
+          -webkit-transition: all 0.3s linear;
+          transition: all 0.3s linear; }
+.homePage#page .mainContent .bottomContent {
+  height: 100px; }
