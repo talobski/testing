@@ -14,7 +14,7 @@ html, body {
 
 .mainContainer {
   min-height: 100%;
-  background: #f3f3f3; }
+  background: #ececec; }
   .mainContainer:after {
     content: "";
     overflow: auto;
@@ -101,9 +101,9 @@ body {
   padding: 25px;
   color: #222222;
   overflow: hidden;
-  -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.04), 0 0 0 1px rgba(0, 0, 0, 0.1) inset, transparent 0 0 0;
-  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.04), 0 0 0 1px rgba(0, 0, 0, 0.1) inset, transparent 0 0 0;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.04), 0 0 0 1px rgba(0, 0, 0, 0.1) inset, transparent 0 0 0;
+  -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.04), transparent 0 0 0, transparent 0 0 0;
+  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.04), transparent 0 0 0, transparent 0 0 0;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.04), transparent 0 0 0, transparent 0 0 0;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
