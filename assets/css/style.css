@@ -8,6 +8,10 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+  *::selection {
+    background: #11a392;
+    color: white;
+    text-shadow: none; }
 
 html, body {
   min-width: 960px;
@@ -52,7 +56,7 @@ header {
   background: #1e3e46;
   width: 12%; }
   .sideBar .menu a, .sideBar .menu a:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.9);
     text-decoration: none; }
     .sideBar .menu a .item, .sideBar .menu a:hover .item {
       font-size: 10px;
@@ -86,11 +90,19 @@ header {
 
 footer {
   position: relative;
-  background: black;
+  background: #1e3e46;
   width: 100%;
   height: 50px;
   margin-top: -50px;
-  clear: both; }
+  clear: both;
+  line-height: 50px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.7); }
+  footer .siteName {
+    font-weight: 700; }
+  footer .bottomLink {
+    margin-left: 10px; }
 
 body {
   color: #222222;
@@ -130,10 +142,10 @@ section {
   float: left; }
 
 a {
-  color: red;
+  color: white;
   text-decoration: none; }
   a:hover {
-    color: red;
+    color: #11a392;
     text-decoration: underline; }
 
 input, input:hover, input:focus {
