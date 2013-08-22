@@ -29,25 +29,42 @@
 					text-shadow: 0 -1px 0 rgba(#000, 0.5)
 					@include rgba-bg(#102C36, 0.9)
 					@include shadow(-2px 0 4px rgba(#000, 0.3))
+					@include transition(all 0.2s linear)
+					&:hover
+						@include rgba-bg(#102C36, 0.95)
+						@include transition(all 0.4s linear)
 					.title
-						font-size: 15px
+						font-size: 17px
 						font-weight: 700
 						position: relative
 						margin-bottom: 20px
-					.list
+					.description
 						color: rgba(#fff, 0.8)
-						.item
-							padding: 7px 12px
-							overflow: hidden
-							white-space: nowrap
-							text-overflow: ellipsis
-							cursor: pointer
-							@include rgba-bg(#000, 0.12)
-							&:nth-child(even)
-								background: transparent
-							&:hover
-								@include rgba-bg(#fff, 0.08)
-								@include transition(all 0.3s linear)
+						line-height: 20px
 		.bottomContent
-			height: 100px
+			padding: 40px 30px
+			border-top: 1px solid rgba(#000, 0.1)
+			text-shadow: 0 -1px 0 rgba(#fff, 0.5)
+			.title
+				font-size: 15px
+				font-weight: 700
+				position: relative
+				margin-bottom: 20px
+			.list
+				.item
+					color: #008A7A
+					padding: 7px 12px
+					overflow: hidden
+					white-space: nowrap
+					text-overflow: ellipsis
+					cursor: pointer
+					@include transition(all 0.2s linear)
+					&:nth-child(odd)
+						@include rgba-bg(#000, 0.05)
+					&:hover
+						color: #fff
+						text-shadow: 0 -1px 0 rgba(#000, 0.1)
+						@include rgba-bg($green, 0.8)
+						@include transition(all 0.2s linear)
+
 

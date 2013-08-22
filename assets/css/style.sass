@@ -16,7 +16,7 @@ html, body
 
 .mainContainer
 	min-height: 100%
-	background: #DDDDDD
+	background: #eee
 	&:after
 		content: ""
 		overflow: auto
@@ -63,6 +63,7 @@ header
 				position: relative
 				max-height: 85px
 				min-height: 85px
+				@include transition(all 0.2s linear)
 				&:hover
 					border-bottom: 1px solid transparent
 					@include rgba-bg(#000, 0.15)
