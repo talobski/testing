@@ -1,0 +1,52 @@
+@import "normalize.css"
+@import "mixins"
+@import "grid.css"
+@import "fonts.css"
+@import "pallette"
+
+.productPage#page
+	.mainContent
+		.products
+			.product
+				border: 1px solid rgba(#000, 0.2)
+				margin-bottom: 15px
+				@include border-radius(3px)
+				.productImage
+					height: 200px
+					width: 100%
+					background: #eee
+				.productDetails
+					padding: 10px 0
+					text-align: center
+					.price
+						background: $green
+						padding: 5px 0
+						font-weight: 700
+						color: #fff
+						width: 100px
+						height: 26px
+						margin: 5px auto
+						position: relative
+						text-shadow: 0 -1px 0 rgba(#000, 0.3)
+						&:before
+							content: ""
+							width: 0
+							height: 0
+							top: 0
+							left: 0
+							position: absolute
+							margin-left: -13px
+							border: 13px solid transparent
+							border-top: 13px solid $green
+							border-bottom: 13px solid $green
+						&:after
+							content: ""
+							width: 0
+							height: 0
+							top: 0
+							right: 0
+							position: absolute
+							margin-right: -13px
+							border: 13px solid transparent
+							border-top: 13px solid $green
+							border-bottom: 13px solid $green

@@ -1,0 +1,51 @@
+@import url(normalize.css);
+@import url(grid.css);
+@import url(fonts.css);
+.productPage#page .mainContent .products .product {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; }
+  .productPage#page .mainContent .products .product .productImage {
+    height: 200px;
+    width: 100%;
+    background: #eeeeee; }
+  .productPage#page .mainContent .products .product .productDetails {
+    padding: 10px 0;
+    text-align: center; }
+    .productPage#page .mainContent .products .product .productDetails .price {
+      background: #11a392;
+      padding: 5px 0;
+      font-weight: 700;
+      color: white;
+      width: 100px;
+      height: 26px;
+      margin: 5px auto;
+      position: relative;
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3); }
+      .productPage#page .mainContent .products .product .productDetails .price:before {
+        content: "";
+        width: 0;
+        height: 0;
+        top: 0;
+        left: 0;
+        position: absolute;
+        margin-left: -13px;
+        border: 13px solid transparent;
+        border-top: 13px solid #11a392;
+        border-bottom: 13px solid #11a392; }
+      .productPage#page .mainContent .products .product .productDetails .price:after {
+        content: "";
+        width: 0;
+        height: 0;
+        top: 0;
+        right: 0;
+        position: absolute;
+        margin-right: -13px;
+        border: 13px solid transparent;
+        border-top: 13px solid #11a392;
+        border-bottom: 13px solid #11a392; }
