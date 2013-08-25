@@ -1,0 +1,19 @@
+@import url(normalize.css);
+@import url(grid.css);
+@import url(fonts.css);
+.contactPage#page .mainContent .contectDetails .detail {
+  margin-bottom: 10px; }
+  .contactPage#page .mainContent .contectDetails .detail .bold {
+    font-weight: 700;
+    color: #777777; }
+.contactPage#page .mainContent .messageUs input, .contactPage#page .mainContent .messageUs textarea {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  margin-bottom: 10px;
+  -moz-box-shadow: 0 0 0 transparent, transparent 0 0 0, transparent 0 0 0;
+  -webkit-box-shadow: 0 0 0 transparent, transparent 0 0 0, transparent 0 0 0;
+  box-shadow: 0 0 0 transparent, transparent 0 0 0, transparent 0 0 0; }
+.contactPage#page .mainContent .messageUs textarea {
+  max-width: 358px;
+  height: 100px; }

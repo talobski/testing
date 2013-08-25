@@ -26,7 +26,7 @@
               %span Corner
             .subTitle St. Paul University Quezon City
 
-      .productPage#page
+      .contactPage#page
         .wrapper
           %section.darkContainer.clearfix
             .sideBar.left
@@ -48,66 +48,31 @@
                     .icon-contact 
                     .itemText Contact Us
             .mainContent.left
-              .header Products
-              .products
-                .row-fluid
-                  .span4
-                    .product
-                      .productImage
-                      .productDetails
-                        .name Samsung Galaxy S4
-                        .price $400
-                  .span4
-                    .product
-                      .productImage
-                      .productDetails
-                        .name Apple Iphone 5
-                        .price $500
-                  .span4
-                    .product
-                      .productImage
-                      .productDetails
-                        .name Nokia Lumia 900
-                        .price $350
-                .row-fluid
-                  .span4
-                    .product
-                      .productImage
-                      .productDetails
-                        .name Samsung Galaxy S4
-                        .price $400
-                  .span4
-                    .product
-                      .productImage
-                      .productDetails
-                        .name Apple Iphone 5
-                        .price $500
-                  .span4
-                    .product
-                      .productImage
-                      .productDetails
-                        .name Nokia Lumia 900
-                        .price $350
-                .row-fluid
-                  .span4
-                    .product
-                      .productImage
-                      .productDetails
-                        .name Samsung Galaxy S4
-                        .price $400
-                  .span4
-                    .product
-                      .productImage
-                      .productDetails
-                        .name Apple Iphone 5
-                        .price $500
-                  .span4
-                    .product
-                      .productImage
-                      .productDetails
-                        .name Nokia Lumia 900
-                        .price $350
-
+              .row-fluid
+                .span6
+                  .header Our Contact Details
+                  .contectDetails
+                    .detail.address
+                      %span.bold Address:
+                      %span St. Paul University Quezon City
+                    .detail.email
+                      %span.bold Email:
+                      %span stpauluniversity@gmail.com
+                    .detail.facebook
+                      %span.bold Facebook:
+                      %span facebook.com/stpauluniversity
+                    .detail.twitter
+                      %span.bold Twitter:
+                      %span twitter.com/stpauluniversity
+                    .detail.number
+                      %span.bold Contact Number:
+                      %span 09234567890
+                .span6
+                  .header Drop Us a Message
+                  .messageUs
+                    %input.name{:type => "text", :placeholder => "Name"}
+                    %input.email{:type => "text", :placeholder => "Email"}
+                    %textarea.message{:placeholder => "Message"}
   %footer
     .wrapper.footerText.clearfix
       .left.copyRight

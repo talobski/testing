@@ -4,6 +4,7 @@
 @import url(home.css);
 @import url(about.css);
 @import url(product.css);
+@import url(contact.css);
 * {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;

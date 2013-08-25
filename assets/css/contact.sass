@@ -1,0 +1,24 @@
+@import "normalize.css"
+@import "mixins"
+@import "grid.css"
+@import "fonts.css"
+@import "pallette"
+
+.contactPage#page
+  .mainContent
+    .contectDetails
+      .detail
+        margin-bottom: 10px
+        .bold
+          font-weight: 700
+          color: #777
+    .messageUs
+      input, textarea
+        width: 100%
+        border: 1px solid rgba(#000, 0.2)
+        padding: 5px
+        margin-bottom: 10px
+        @include shadow(0 0 0 transparent)
+      textarea
+        max-width: 358px
+        height: 100px
